@@ -1,0 +1,14 @@
+.navbaritems {
+  padding-left: 10px;
+}
+
+.nav-two {
+  font-size: 40px;
+}
+
+.navbar {
+  background-color: #C0C0C0;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}

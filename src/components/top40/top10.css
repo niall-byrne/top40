@@ -1,0 +1,15 @@
+.top10-album img {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.top10-album {
+  padding: 5px;
+}
+
+.top10 {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

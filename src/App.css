@@ -1,18 +1,17 @@
 
 .wrapper {
   display: grid;
-  grid-template-rows: 75px 222px 312px;
+  grid-template-rows: 72px 222px 40px 312px;
+}
+
+.details {
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
 }
 
 .section {
   border: red;
   border-style: solid;
   border-width: 1px;
-}
-
-.one {
-}
-.two {
-}
-.three {
 }
