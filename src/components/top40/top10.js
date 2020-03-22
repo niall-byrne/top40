@@ -1,11 +1,10 @@
 import React from 'react';
 import Tile from '../tile/tile.js'
-import './top10.css';
+import './top10.sass';
 
 export default class Top10 extends React.Component {
     constructor(props) {
         super(props);
-        this.size = 64;
     }
 
     render() {
@@ -16,7 +15,7 @@ export default class Top10 extends React.Component {
                 {top10.map((album, index) => {
                   return (
                     <div className="top10-album" key={index}>
-                      <Tile size={this.size} url={album.image} key={index}/>
+                      <Tile size={this.props.size} url={album.image} key={index}/>
                     </div>
                   )
                 })}             

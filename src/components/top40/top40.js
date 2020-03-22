@@ -9,7 +9,7 @@ export default class Top40 extends React.Component {
     render() {        
         return (
             <div className="section top40">
-              <Top10 albums={this.props.albums}/>
+              <Top10 size={this.props.size} albums={this.props.albums}/>
             </div>
         );
     }

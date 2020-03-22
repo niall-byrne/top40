@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.sass';
 import Tile from './components/tile/tile.js'
 import NavBar from './components/navbar/navbar.js'
 import Top40 from './components/top40/top40.js'
+import Zoom from './components/zoom/zoom.js'
 
 export default class App extends React.Component {
   constructor(props) {
@@ -57,12 +58,12 @@ export default class App extends React.Component {
         <div className="parent">
           <div className="wrapper">
             <NavBar attrs={ user }/>
-            <div className="section two">CloseUp<Tile></Tile></div>
+            <Zoom/>
             <div className="section details">
               Select an album for details.
             </div>
             <div>
-              <Top40 albums={ albums}/>
+              <Top40 size={64} albums={ albums}/>
             </div>            
           </div>
         </div>
