@@ -1,0 +1,22 @@
+@import './mixins';
+
+.covers-album {
+  padding: 5px;
+  img {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+}
+
+.covers {
+  @include flexCenter;
+}
+
+.covers-container {
+  max-width: var(--covers-max-width);
+}
+
+.center-covers {
+  @include flexCenter;
+}

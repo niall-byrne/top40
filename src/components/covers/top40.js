@@ -8,15 +8,12 @@ export default class Top40 extends React.Component {
 
     render() {        
         return (
-            <div className="section top40">
-              <Covers class="covers" start={0} end={10} size={this.props.size} albums={this.props.albums}/>
-              <div>
+            <div className="section top40">                
                 <div className="center-covers">
-                    <div className="eleven-to-forty-container">
-                        <Covers class="covers" start={10} end={40} size={this.props.size} albums={this.props.albums}/>
+                    <div className="covers-container">
+                        <Covers class="covers" start={0} end={40} size={this.props.size} albums={this.props.albums}/>                        
                     </div>
                 </div>
-              </div>
             </div>
         );
     }

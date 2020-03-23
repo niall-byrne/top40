@@ -1,0 +1,19 @@
+@import './variables';
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 72px 222px 40px 312px;
+}
+
+.details {
+  font-size: var(--details-fontsize);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  border: red;
+  border-style: solid;
+  border-width: var(--section-borders);
+}

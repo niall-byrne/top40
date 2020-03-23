@@ -1,6 +1,6 @@
 import React from 'react';
 import Gravatar from 'react-gravatar';
-import './navbar.sass';
+import './navbar.scss';
 
 export default class NavBar extends React.Component {
     constructor(props) {

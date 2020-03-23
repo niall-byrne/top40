@@ -1,0 +1,31 @@
+:root {
+  --close-up-width: 250px;
+  --close-up-position: -500px;
+  --close-up-: -250px;
+}
+
+.zoom {
+  text-align: center;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //min-height: 100%;
+}
+
+.closeupcontainer {
+    //float: left;
+    //position: absolute; 
+    //left: 0px;
+    //top: 72px;
+    //width: var(--close-up-width);      
+    //height: 221px;
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+.titlecontainer {
+    width: 100%;
+    font-size: var(--zoom-fontsize);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.sass';
+import './App.scss';
 import NavBar from './components/navbar/navbar.js'
 import Top40 from './components/covers/top40.js'
 import Zoom from './components/zoom/zoom.js'
@@ -10,10 +10,18 @@ export default class App extends React.Component {
 
     this.state = {
       albums: [],
-      user: {}
+      user: {},
+      closed: true
     }
     this.cleanAlbums = this.cleanAlbums.bind(this);
-    this.loadData = this.loadData.bind(this);    
+    this.loadData = this.loadData.bind(this);
+    this.toggleDrawer = this.toggleDrawer.bind(this);
+  }
+
+  toggleDrawer(albums) {
+    this.setState({
+        closed: !this.state.closed
+    });
   }
 
   cleanAlbums(albums) {
@@ -57,7 +65,7 @@ export default class App extends React.Component {
         <div className="parent">
           <div className="wrapper">
             <NavBar attrs={ user }/>
-            <Zoom/>
+            <Zoom drawerHandler={this.toggleDrawer} closed={this.state.closed}/>
             <div className="section details">
               Select an album for details.
             </div>
