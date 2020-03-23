@@ -1,20 +1,21 @@
 import React from 'react';
 import Tile from '../tile/tile.js'
-import './top10.sass';
+import './covers.sass';
 
-export default class Top10 extends React.Component {
+export default class Covers extends React.Component {
     constructor(props) {
         super(props);
     }
 
     render() {
-        const top10 = this.props.albums.splice(0, 10);
+        const covers = this.props.albums.slice(this.props.start, this.props.end);
+        console.log(covers);
         
         return (
-            <div className="section top10">   
-                {top10.map((album, index) => {
+            <div className={"section " + this.props.class}>   
+                {covers.map((album, index) => {
                   return (
-                    <div className="top10-album" key={index}>
+                    <div className="covers-album" key={index}>
                       <Tile size={this.props.size} url={album.image} key={index}/>
                     </div>
                   )

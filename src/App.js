@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.sass';
-import Tile from './components/tile/tile.js'
 import NavBar from './components/navbar/navbar.js'
-import Top40 from './components/top40/top40.js'
+import Top40 from './components/covers/top40.js'
 import Zoom from './components/zoom/zoom.js'
 
 export default class App extends React.Component {
@@ -63,7 +62,7 @@ export default class App extends React.Component {
               Select an album for details.
             </div>
             <div>
-              <Top40 size={64} albums={ albums}/>
+              <Top40 size={100} albums={ albums}/>
             </div>            
           </div>
         </div>
