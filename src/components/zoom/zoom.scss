@@ -1,28 +1,25 @@
 :root {
-  --close-up-width: 250px;
-  --close-up-position: -500px;
-  --close-up-: -250px;
+  --drawer-up-width: 100%;
+  --drawer-up-position: -500px;
+  --drawer-up-: -250px;
+  --drawer-height: 220px;
 }
 
 .zoom {
   text-align: center;
-  //display: flex;
-  //align-items: center;
-  //justify-content: center;
-  //min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
 }
 
 .closeupcontainer {
-    //float: left;
-    //position: absolute; 
-    //left: 0px;
-    //top: 72px;
-    //width: var(--close-up-width);      
-    //height: 221px;
-}
-
-.hidden {
-  transform: translateX(-100%);
+    float: left;
+    position: absolute; 
+    left: 0px;
+    top: 72px;
+    width: var(--drawer-up-width);      
+    height: var(--drawer-up-height);
 }
 
 .titlecontainer {

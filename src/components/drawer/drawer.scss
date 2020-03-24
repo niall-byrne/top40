@@ -1,3 +1,44 @@
 .open {
-  transform: translateX(30%) scale(0.95);
+  background-color: #C0C0C0;
+  opacity: 1.0;
+  transform: translateX(0%);
+}
+
+.closed {
+  opacity: 0.5;
+  transform: translateX(-100%);
+}
+
+.drawer {
+  display: flex;
+  flex-direction: row;
+  height: 220px;
+  transition: all .5s;
+}
+
+.note {
+  padding: 15px;
+  font-size: var(--zoom-fontsize);
+  
+  .artist {
+    font-size: var(--zoom-artist-fontsize);
+  }
+  .plays {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+  }
+  .info {
+    display: grid;
+    justify-content: flex-start;
+  }
+  .lastfm {
+    filter: contrast(300%);    
+  }  
+}
+
+.zoomed {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;    
 }

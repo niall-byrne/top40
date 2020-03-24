@@ -5,18 +5,19 @@ import Drawer from '../drawer/drawer.js';
 export default class Zoom extends React.Component {
     constructor(props) {
         super(props);
+        this.drawerImageSize = 220;
       }
 
     render() {
         return (            
             <div className="section">                
-                <div>
+                <div>                    
                     <div className={"section closeupcontainer"}>
-                        {this.props.closed ? <Drawer open={true}/> : <Drawer open={false}/>}
+                        <Drawer lastfm={this.props.lastfm} openLastFM={this.props.openLastFM} size={this.drawerImageSize} selected={this.props.selected} open={this.props.open}/>
                     </div>
                 </div>
                 <div className="section zoom">      
-                    <div className="section titlecontainer" onClick={this.props.drawerHandler}>
+                    <div className="section titlecontainer">
                         My Top 40
                     </div>
                 </div>                

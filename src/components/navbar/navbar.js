@@ -3,10 +3,6 @@ import Gravatar from 'react-gravatar';
 import './navbar.scss';
 
 export default class NavBar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const profile = "https://www.last.fm/user/" + this.props.attrs.user
 

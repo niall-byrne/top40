@@ -5,7 +5,16 @@
   img {
     border-style: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 1px;    
+  }
+
+  .back {
+    background-color: grey;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    transition: all 0.2s;
   }
 }
 

@@ -1,18 +1,23 @@
 :root {
   --details-fontsize: 30px;
-  --zoom-fontsize: 30px;
-  --section-borders: 1px;
+  --zoom-fontsize: 20px;
+  --section-borders: 0px;
   --covers-max-width: 1200px;
+  --zoom-artist-fontsize: 1.2em
 }
 
 @media screen and (max-width: 400px) {
   :root {
     --details-fontsize: 20px;
+    --zoom-fontsize: 10px;
+    --zoom-artist-fontsize: 1.1em
   }
 }
 
 @media screen and (max-width: 250px) {
   :root {
-    --details-fontsize: 10px;
+    --details-fontsize: 5px;
+    --zoom-fontsize: 2px;
+    --zoom-artist-fontsize: 0.5em
   }
 }
