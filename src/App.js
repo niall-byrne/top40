@@ -79,6 +79,7 @@ export default class App extends React.Component {
       newalbum.artist = album.artist;
       newalbum.rank = album['@attr']["rank"];
       newalbum.image = album['image'][2]["#text"];
+      newalbum.image_large = album['image'][3]["#text"];
       newalbum.playcount = album.playcount;
       newalbum.url = album.url;
       newalbum.name = album.name;
@@ -120,7 +121,7 @@ export default class App extends React.Component {
               Select an album for details.
             </div>
             <div className="section scrollable">
-              <Top40 drawerHandler={this.toggleDrawer} size={100} albums={ albums}/>
+              <Top40 drawerHandler={this.toggleDrawer} size={100} albums={albums}/>
             </div>            
           </div>
         </div>

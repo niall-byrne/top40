@@ -18,7 +18,7 @@ export default class Zoom extends React.Component {
                 </div>
                 <div className="section zoom">      
                     <div className="section titlecontainer">
-                        My Top 40
+                        My Top 40 Albums
                     </div>
                 </div>                
             </div>

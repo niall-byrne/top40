@@ -37,6 +37,14 @@
   }  
 }
 
+.lastfmlink:hover{
+  filter: grayscale(0%);
+}
+
+.lastfmlink{
+  filter: grayscale(100%);
+}
+
 .zoomed {
   border-style: solid;
   border-color: black;

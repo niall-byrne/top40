@@ -15,6 +15,9 @@
     justify-content: center;
     align-items: center;    
     transition: all 0.2s;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
   }
 }
 
@@ -28,4 +31,11 @@
 
 .center-covers {
   @include flexCenter;
+}
+
+.album img:hover {
+  filter: opacity(50%);
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
