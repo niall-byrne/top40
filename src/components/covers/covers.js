@@ -1,5 +1,5 @@
 import React from 'react';
-import Tile from '../tile/tile.js'
+import Tile from './tile.js'
 import './covers.scss';
 
 export default class Covers extends React.Component {

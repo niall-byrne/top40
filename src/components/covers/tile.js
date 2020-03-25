@@ -12,7 +12,7 @@ export default class Tile extends React.Component {
         
         if (!this.props.flipped) {
             return (    
-                <div className={"album album" + this.props.index} onClick={() => this.props.drawerHandler(this.props.index - 1)}>
+                <div className={"album album" + this.props.index} onClick={(e) => this.props.drawerHandler(e, this.props.index - 1)}>
                     <div className="flipp">                    
                         <div className="front">
                             <img style={{width: width, height: height }} alt={this.props.name} src={this.props.url}/>
@@ -22,7 +22,7 @@ export default class Tile extends React.Component {
             );
         } else {
             return (    
-                <div className={"album album" + this.props.index} onClick={() => this.props.drawerHandler(this.props.index - 1)}>
+                <div className={"album album" + this.props.index} onClick={(e) => this.props.drawerHandler(e, this.props.index - 1)}>
                     <div className="flipp">                       
                         <div style={{width: width + 6, height: height + 2}} className="back">
                             {this.props.index}
