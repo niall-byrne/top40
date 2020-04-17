@@ -7,13 +7,12 @@
 }
 
 .navbar {
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   align-items: center;
   display: grid;
   grid-template-columns: 70px 1fr;
 }
 
-.nav-one:hover{
+.nav-one:hover {
   filter: opacity(50%);
 }
-

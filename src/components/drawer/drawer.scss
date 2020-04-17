@@ -1,6 +1,6 @@
 .open {
-  background-color: #C0C0C0;
-  opacity: 1.0;
+  background-color: #c0c0c0;
+  opacity: 1;
   transform: translateX(0%);
 }
 
@@ -13,13 +13,13 @@
   display: flex;
   flex-direction: row;
   height: 220px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .note {
   padding: 15px;
   font-size: var(--zoom-fontsize);
-  
+
   .artist {
     font-size: var(--zoom-artist-fontsize);
   }
@@ -33,20 +33,20 @@
     justify-content: flex-start;
   }
   .lastfm {
-    filter: contrast(300%);    
-  }  
+    filter: contrast(300%);
+  }
 }
 
-.lastfmlink:hover{
+.lastfmlink:hover {
   filter: grayscale(0%);
 }
 
-.lastfmlink{
+.lastfmlink {
   filter: grayscale(100%);
 }
 
 .zoomed {
   border-style: solid;
   border-color: black;
-  border-width: 1px;    
+  border-width: 1px;
 }

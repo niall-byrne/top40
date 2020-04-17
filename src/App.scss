@@ -1,7 +1,7 @@
-@import './variables';
+@import "./variables";
 
 body {
-  position: fixed; 
+  position: fixed;
   overflow-y: scroll;
   width: 100%;
 }
@@ -25,6 +25,6 @@ body {
 }
 
 .scrollable {
-  height: calc(100vh - 340px);
+  height: calc(100vh - 72px - 222px - 40px + 50px);
   overflow-y: scroll;
 }

@@ -3,14 +3,14 @@
   --zoom-fontsize: 20px;
   --section-borders: 0px;
   --covers-max-width: 1200px;
-  --zoom-artist-fontsize: 1.2em
+  --zoom-artist-fontsize: 1.2em;
 }
 
 @media screen and (max-width: 400px) {
   :root {
     --details-fontsize: 20px;
     --zoom-fontsize: 10px;
-    --zoom-artist-fontsize: 1.1em
+    --zoom-artist-fontsize: 1.1em;
   }
 }
 
@@ -18,6 +18,6 @@
   :root {
     --details-fontsize: 5px;
     --zoom-fontsize: 2px;
-    --zoom-artist-fontsize: 0.5em
+    --zoom-artist-fontsize: 0.5em;
   }
 }

@@ -2,6 +2,7 @@
   "name": "album",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://niall-byrne.github.io/top40",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -16,7 +17,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint ./src",
+    "clean": "eslint --fix ./src; prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|scss|md|vue)\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,9 +38,13 @@
     ]
   },
   "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "fibers": "^4.0.2",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
+    "prettier": "^2.0.4",
     "sass": "^1.26.3",
     "typescript": "^3.8.3"
   }
