@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/top40/static/css/main.ee4df967.chunk.css",
-    "main.js": "/top40/static/js/main.0fa7dbb4.chunk.js",
-    "main.js.map": "/top40/static/js/main.0fa7dbb4.chunk.js.map",
+    "main.css": "/top40/static/css/main.90597823.chunk.css",
+    "main.js": "/top40/static/js/main.be653162.chunk.js",
+    "main.js.map": "/top40/static/js/main.be653162.chunk.js.map",
     "runtime-main.js": "/top40/static/js/runtime-main.e28b7b50.js",
     "runtime-main.js.map": "/top40/static/js/runtime-main.e28b7b50.js.map",
     "static/js/2.8d1891a6.chunk.js": "/top40/static/js/2.8d1891a6.chunk.js",
     "static/js/2.8d1891a6.chunk.js.map": "/top40/static/js/2.8d1891a6.chunk.js.map",
     "index.html": "/top40/index.html",
-    "precache-manifest.d9b6f5adab6df82bdc3f351620a6af8f.js": "/top40/precache-manifest.d9b6f5adab6df82bdc3f351620a6af8f.js",
+    "precache-manifest.1eff915c4ccc41f1e363851de225a9bf.js": "/top40/precache-manifest.1eff915c4ccc41f1e363851de225a9bf.js",
     "service-worker.js": "/top40/service-worker.js",
-    "static/css/main.ee4df967.chunk.css.map": "/top40/static/css/main.ee4df967.chunk.css.map",
+    "static/css/main.90597823.chunk.css.map": "/top40/static/css/main.90597823.chunk.css.map",
     "static/js/2.8d1891a6.chunk.js.LICENSE.txt": "/top40/static/js/2.8d1891a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e28b7b50.js",
     "static/js/2.8d1891a6.chunk.js",
-    "static/css/main.ee4df967.chunk.css",
-    "static/js/main.0fa7dbb4.chunk.js"
+    "static/css/main.90597823.chunk.css",
+    "static/js/main.be653162.chunk.js"
   ]
 }
